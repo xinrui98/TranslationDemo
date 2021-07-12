@@ -1,7 +1,6 @@
 # TranslationDemo
 Multi-Language Feature
 
-<video width="560" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=m9a6dkqYVS8&ab_channel=SwiftGoose" type="video/mp4">
-  Your browser does not support the video tag.
-</video> 
+Video Demo:
+https://user-images.githubusercontent.com/44086084/125225551-1663a180-e302-11eb-9a00-952585591e84.MP4
+
