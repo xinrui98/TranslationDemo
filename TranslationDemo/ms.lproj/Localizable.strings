@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  TranslationDemo
+
+  Created by Xinrui gao on 9/7/21.
+  
+*/
+"Welcome to first screen"="Selamat datang ke skrin pertama";
+"First testing label"="Label ujian pertama";
+
+"Welcome to second screen"="Selamat datang ke skrin kedua";
+"Second testing label"="Label ujian kedua";
+
+"fourth screen welcome"="selamat datang skrin keempat";
+"fourth screen testing"="ujian skrin keempat";

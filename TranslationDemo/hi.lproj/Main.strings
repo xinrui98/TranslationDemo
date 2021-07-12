@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "5ww-de-ARZ"; */
+"5ww-de-ARZ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome to first screen"; ObjectID = "8v5-L1-CNg"; */
+"8v5-L1-CNg.text" = "Welcome to first screen";
+
+/* Class = "UILabel"; text = "Current Language"; ObjectID = "Cf7-e3-6uo"; */
+"Cf7-e3-6uo.text" = "Current Language";
+
+/* Class = "UILabel"; text = "Another testing label"; ObjectID = "gJC-uM-Wrw"; */
+"gJC-uM-Wrw.text" = "Another testing label";

@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    
+    // restart app with english. without this function, app will restart in last language selected
+    func applicationWillTerminate(_ application: UIApplication) {
+        UserDefaults.standard.setValue("en", forKey: "locale")
+    }
 
     // MARK: UISceneSession Lifecycle
 
