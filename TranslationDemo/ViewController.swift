@@ -10,14 +10,15 @@ import DropDown
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var dropDownView: UIView!
     @IBOutlet weak var labelWelcome: UILabel!
     @IBOutlet weak var labelTesting: UILabel!
     @IBOutlet weak var labelCurrentLanguage: UILabel!
     
+    @IBOutlet weak var dropDownView: UIView!
     let dropDown = DropDown()
     let languageArray = ["English", "Chinese", "Malay","Hindi"]
     let languageCodeArray = ["en", "zh-Hans", "ms","hi"]
+    
     let refreshEntireController = false
     
     override func viewDidLoad() {
@@ -33,15 +34,18 @@ class ViewController: UIViewController {
         // Action triggered on selection
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             print("Selected item: \(item) at index: \(index)")
+            
             //change language label text to selected language
             labelCurrentLanguage.text = languageArray[index]
+            
+            //change user default language of app to perform translation function
             UserDefaults.standard.setValue(self.languageCodeArray[index], forKey: "locale")
             
             if(refreshEntireController==true){
                 //call viewDidLoad() to reload the entire controller, which will also update texts to selected language
                 viewDidLoad()
             }else{
-                self.configureView()                
+                self.configureView()
             }
         }
         
@@ -53,6 +57,7 @@ class ViewController: UIViewController {
         self.labelTesting.text = "First testing label".localizedString()
     }
     
+    // Button on tap action
     @IBAction func dropDownOnTap(_ sender: Any) {
         dropDown.show()
     }

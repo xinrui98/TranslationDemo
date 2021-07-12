@@ -1,10 +1,11 @@
 /* 
-  Localizable.strings
+  Localizable.strings (Chinese)
   TranslationDemo
 
   Created by Xinrui gao on 9/7/21.
   
 */
+//Key(Xib Loc Key): Value
 "Welcome to first screen"="欢迎来到第一个屏幕";
 "First testing label"="第一个测试标签";
 
