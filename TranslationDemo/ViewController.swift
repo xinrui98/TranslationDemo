@@ -53,7 +53,7 @@ class ViewController: UIViewController {
     
     // ONLY update the label texts to selected language WITHOUT refreshing the entire controller
     func configureView(){
-        self.labelWelcome.text = "Welcome to first screen".localizedString()
+        self.labelWelcome.text = "testing".localizedString()
         self.labelTesting.text = "First testing label".localizedString()
     }
     

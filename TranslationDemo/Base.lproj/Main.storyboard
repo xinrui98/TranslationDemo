@@ -18,19 +18,6 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKh-Rl-mEP">
                                 <rect key="frame" x="295" y="96" width="80" height="40"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ww-de-ARZ">
-                                        <rect key="frame" x="15" y="-15" width="70" height="70"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="70" id="OeO-VH-YQq"/>
-                                            <constraint firstAttribute="height" constant="70" id="kAr-Jl-iDW"/>
-                                        </constraints>
-                                        <state key="normal" title="Button" image="translation_new"/>
-                                        <connections>
-                                            <action selector="dropDownOnTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNy-dN-7IW"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="8sI-uC-6kN"/>
@@ -75,6 +62,17 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="First testing label"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ww-de-ARZ">
+                                <rect key="frame" x="289" y="96" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="OeO-VH-YQq"/>
+                                    <constraint firstAttribute="height" constant="70" id="kAr-Jl-iDW"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="translation_new"/>
+                                <connections>
+                                    <action selector="dropDownOnTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yNy-dN-7IW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
