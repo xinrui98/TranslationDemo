@@ -55,6 +55,7 @@ class ViewController: UIViewController {
     // ONLY update the label texts to selected language WITHOUT refreshing the entire controller
     func configureView(){
         print("print for testing purposes for git commit")
+        print("added new stuff to test")
         self.labelWelcome.text = "testing".localizedString()
         self.labelTesting.text = "First testing label".localizedString()
     }
