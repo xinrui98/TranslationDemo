@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     let refreshEntireController = false
     
     override func viewDidLoad() {
+        print("print for testing purposes for git commit")
         super.viewDidLoad()
         title = "Main Screen"
         // Do any additional setup after loading the view.
@@ -53,12 +54,14 @@ class ViewController: UIViewController {
     
     // ONLY update the label texts to selected language WITHOUT refreshing the entire controller
     func configureView(){
+        print("print for testing purposes for git commit")
         self.labelWelcome.text = "testing".localizedString()
         self.labelTesting.text = "First testing label".localizedString()
     }
     
     // Button on tap action
     @IBAction func dropDownOnTap(_ sender: Any) {
+        print("print for testing purposes for git commit")
         dropDown.show()
     }
     
